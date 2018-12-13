@@ -7,8 +7,8 @@
 ;                     assembly language procedures
 ;
 ;   Build using these commands:
-;       nasm -g -f elf64 -F stabs hexdump2.asm
-;       ld -o hexdump2 hexdump2.o
+;       nasm -g -f elf -F stabs hexdump2.asm
+;       ld -o hexdump2 hexdump2.o -m elf_i386
 ;
 ; This code is from the book "Assembly Language Step by Step: Programming with Linux," 3rd ed.,
 ; by Jeff Duntemann (John Wiley & Sons, 2009).
