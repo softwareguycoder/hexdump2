@@ -12,7 +12,9 @@
 ;
 ; This code is from the book "Assembly Language Step by Step: Programming with Linux," 3rd ed.,
 ; by Jeff Duntemann (John Wiley & Sons, 2009).
-
+;
+; The following are equates that define named constants, for enhanced program readability
+;
 BUFFLEN     EQU 10                  ; Length of buffer, in bytes
 
 SYS_EXIT    EQU 1                   ; Syscall number for sys_exit
