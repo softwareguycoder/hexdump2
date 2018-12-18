@@ -145,7 +145,7 @@ DumpChar:
     
 
 ;-------------------------------------------------------------------------
-; PrintLine   : Displays DumpLin to STDOUT
+; PrintLine   : Displays the hex dump line stirng via INT 80h sys_write
 ; UPDATED     : 13 Dec 2018
 ; IN          : Nothing
 ; RETURNS     : Nothing
